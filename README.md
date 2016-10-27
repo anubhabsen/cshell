@@ -3,24 +3,23 @@ C-Shell
 ##The program implements a bash clone with C. Some bash commands are implemented and the rest are invoked using `execvp`. A few additional commands such as `pinfo`, `jobs`, `kjob` and `kill` have been implemented to enhance productivity.
 
 ###Features implemented
-
-	* A shell prompt of the form: `<username@system_name:curr_dir>` with path relative to home
-	* Semi-colon (;) separated commands
-	* & to run a process in background
-	* Some built in commands like cd and pwd re-implemented
-	* Type `quit` to exit the shell
-	* Implements foreground and background processes
-	* Process name and id printed when background process terminates
-	* Type `pinfo` in the prompt to print: pid, process, status, memory and executable path (on Linux machines)
-	* Redirection of outputs supported
-	* Piping supported
-	* Multiple piping implemented
-	* Foreground option (Not functional yet)
-	* Type `jobs` to list the processes in background with PID and a sequential number
-	* `kjob <process number(as listed in jobs command)> <signal>` to give the signal
-	* `kill` to kill all background processes
-	* Ctrl-C to terminate a process
-	* Ctrl-D to exit the shell/denote EOF
+	1) A shell prompt of the form: `<username@system_name:curr_dir>` with path relative to home
+	2) Semi-colon (;) separated commands
+	3) & to run a process in background
+	4) Some built in commands like cd and pwd re-implemented
+	5) Type `quit` to exit the shell
+	6) Implements foreground and background processes
+	7) Process name and id printed when background process terminates
+	8) Type `pinfo` in the prompt to print: pid, process, status, memory and executable path (on Linux machines)
+	9) Redirection  of outputs supported
+	10) Piping supported
+	11) Multiple piping implemented
+	12) Foreground option (Not functional yet)
+	13) Type `jobs` to list the processes in background with PID and a sequential number
+	14) `kjob <process number(as listed in jobs command)> <signal>` to give the signal
+	15) `kill` to kill all background processes
+	16) Ctrl-C to terminate a process
+	17) Ctrl-D to exit the shell/denote EOF
 
 ###To compile and run:
 	* To compile: make
