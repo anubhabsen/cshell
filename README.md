@@ -1,8 +1,8 @@
 C-Shell
 =====
-##The program implements a bash clone with C. Some bash commands are implemented and the rest are invoked using `execvp`. A few additional commands such as `pinfo`, `jobs`, `kjob` and `kill` have been implemented to enhance productivity.
+## The program implements a bash clone with C. Some bash commands are implemented and the rest are invoked using `execvp`. A few additional commands such as `pinfo`, `jobs`, `kjob` and `kill` have been implemented to enhance productivity.
 
-###Features implemented
+### Features implemented
 	1) A shell prompt of the form: `<username@system_name:curr_dir>` with path relative to home
 	2) Semi-colon (;) separated commands
 	3) & to run a process in background
@@ -21,7 +21,7 @@ C-Shell
 	16) Ctrl-C to terminate a process
 	17) Ctrl-D to exit the shell/denote EOF
 
-###To compile and run:
+### To compile and run:
 	* To compile: make
 	* To run: ./a.out
 	* Clean: make clean
